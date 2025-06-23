@@ -32,9 +32,7 @@
    cd stark-tech-evaluation
 
 2. **​安装依赖**
-npm install
-# 或
-yarn install
+npm install 或 yarn install
 
 3. **​设置环境变量**
 创建 .env.local 文件：
@@ -45,9 +43,7 @@ FINMIND_TOKEN=your_api_token_here
 NEXT_PUBLIC_ENV=development
 
 4. **​启动开发服务器**
-npm run dev
-# 或
-yarn dev
+npm run dev 或  yarn dev
 
 5. **访问应用**
 打开浏览器访问：http://localhost:3000
