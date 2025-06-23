@@ -1,4 +1,4 @@
-# stark-tech-evaluation
+
 
 
 这是一个类似财报狗的股票数据分析界面，使用 Next.js 和 MUI 构建，通过 FinMind API 获取股票数据。
@@ -30,7 +30,6 @@
    ```bash
    git clone https://github.com/1126571387/stark-tech-evaluation.git
    cd stark-tech-evaluation
-
 
 2. **​安装依赖**
 npm install
