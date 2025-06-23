@@ -14,49 +14,48 @@
 
 ## 在线访问
 
-👉 [生产环境地址](https://your-vercel-app-url.vercel.app/)  
+👉 [生产环境地址](https://stark-tech-evaluation.vercel.app/)  
 
 ## 本地运行指南
 
-### 前置要求
-
+## 前置要求
 - Node.js v18+
 - npm v11+ 或 yarn v1.22+
 - FinMind 账号（用于获取 API token）
 
-### 安装步骤
-
+## 安装步骤
 1. **克隆仓库**
    ```bash
    git clone https://github.com/1126571387/stark-tech-evaluation.git
    cd stark-tech-evaluation
 
 2. **​安装依赖**
-npm install
-# 或
-yarn install
+npm install 或 yarn install
 
 3. **​设置环境变量**
 创建 .env.local 文件：
-# FinMind API 配置
+## FinMind API 配置
 FINMIND_TOKEN=your_api_token_here
 
-# 可选：开发环境特定设置
+可选：开发环境特定设置
 NEXT_PUBLIC_ENV=development
 
 4. **​启动开发服务器**
-npm run dev
-# 或
-yarn dev
+npm run dev 或  yarn dev
 
 5. **访问应用**
 打开浏览器访问：http://localhost:3000
 
 6. **​构建生产环境**
-# 构建生产版本
+## 构建生产版本
 npm run build
 
-# 启动生产服务器
+## 启动生产服务器
 npm start
 
+## ​部署规划
+1.生产环境：部署于 Vercel
+2.分支策略：
+main：生产环境分支
+develop：开发测试分支
 
