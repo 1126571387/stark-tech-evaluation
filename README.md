@@ -37,7 +37,7 @@ npm install 或 yarn install
 ## FinMind API 配置
 FINMIND_TOKEN=your_api_token_here
 
-## 可选：开发环境特定设置
+可选：开发环境特定设置
 NEXT_PUBLIC_ENV=development
 
 4. **​启动开发服务器**
