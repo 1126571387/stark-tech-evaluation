@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "@types/http-proxy-middleware": "^0.19.3",
     "axios": "^1.7.0",
     "axios-retry": "^4.5.0",
     "next": "^15.3.3",
