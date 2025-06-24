@@ -1,21 +1,16 @@
 {
-  "headers": [
+  // 其他配置...
+  "routes": [
     {
-      "source": "/api/(.*)", 
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"  
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, OPTIONS" 
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Authorization, Content-Type"  
-        }
-      ]
+      "src": "/api/finmind/(.*)",
+      "dest": "/api/finmind/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/app/$1"
     }
-  ]
+  ],
+  "env": {
+    "FINMIND_TOKEN": "@finmind-token"
+  }
 }
