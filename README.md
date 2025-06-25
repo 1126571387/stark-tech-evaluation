@@ -14,7 +14,7 @@
 
 ## 在线访问
 
-👉 [生产环境地址](https://stark-tech-evaluation.vercel.app/)  
+👉 [生产环境地址](https://stark-tech-evaluation-6dt1.vercel.app/)  
 
 ## 本地运行指南
 
